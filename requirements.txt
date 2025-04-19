@@ -3,5 +3,6 @@ uvicorn
 sse-starlette
 python-dotenv
 langchain
+langchain-openai
 openai
 supabase

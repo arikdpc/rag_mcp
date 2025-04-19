@@ -1,5 +1,5 @@
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from retriever import init_retriever
 from config import settings
 

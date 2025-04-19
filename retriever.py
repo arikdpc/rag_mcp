@@ -1,5 +1,5 @@
-from langchain.vectorstores import SupabaseVectorStore
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import SupabaseVectorStore
+from langchain_openai import OpenAIEmbeddings
 from config import settings
 from supabase import create_client
 
